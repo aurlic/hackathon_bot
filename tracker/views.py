@@ -3,7 +3,6 @@ from django.contrib.auth import login
 from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from django.views.generic import CreateView
-from django.views.generic.list import ListView
 
 from .forms import SignUpForm
 
